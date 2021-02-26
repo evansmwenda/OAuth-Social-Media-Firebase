@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "578466843731",
+    "project_id": "myoauth-fdb84",
+    "storage_bucket": "myoauth-fdb84.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:578466843731:android:3e576bf108164217654aa6",
+        "android_client_info": {
+          "package_name": "com.mwenda.myoauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "578466843731-7v0umhdgn3kvg5ftqmpco0qaoiaasdp1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBT2gSjL4uke5ItfP1HCuH4-5hRps4epsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "578466843731-7v0umhdgn3kvg5ftqmpco0qaoiaasdp1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
