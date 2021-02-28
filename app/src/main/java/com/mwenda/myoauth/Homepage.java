@@ -5,6 +5,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
 
+import com.facebook.login.LoginManager;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
@@ -94,5 +95,6 @@ public class Homepage extends AppCompatActivity {
 //            mGoogleSignInClient.disconnect();
 //            mGoogleSignInClient.connect();
 //        }
+        LoginManager.getInstance().logOut();
     }
 }
