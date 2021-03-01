@@ -13,6 +13,9 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
 import com.google.firebase.auth.FirebaseAuth;
+import com.twitter.sdk.android.core.SessionManager;
+import com.twitter.sdk.android.core.TwitterCore;
+import com.twitter.sdk.android.core.TwitterSession;
 
 import androidx.annotation.NonNull;
 import androidx.navigation.NavController;
@@ -90,8 +93,17 @@ public class Homepage extends AppCompatActivity {
     }
 
     private void signOut() {
+        twitterSignOut();
         FirebaseAuth.getInstance().signOut();
         LoginManager.getInstance().logOut();
         finish();
+    }
+
+    private void twitterSignOut(){
+        SessionManager<TwitterSession> sessionSessionManager = TwitterCore.getInstance().getSessionManager();
+        if(sessionSessionManager.getActiveSession() != null){
+            //user still logged in
+            sessionSessionManager.clearActiveSession();
+        }
     }
 }

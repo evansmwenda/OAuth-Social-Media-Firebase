@@ -4,8 +4,9 @@
     <string name="facebook_application_id" >778537013038801</string>
     <string name="facebook_login_protocol_scheme">fb778537013038801</string>
     <!-- Twitter consumer key and secret -->
-    <string name="twitter_consumer_key" translatable="false">YOUR_CONSUMER_KEY</string>
-    <string name="twitter_consumer_secret" translatable="false">YOUR_CONSUMER_SECRET</string>
+    <string name="twitter_consumer_key" translatable="false">rmJHt9fEEh4eefGU5j5PEK14s</string>
+    <string name="twitter_consumer_secret" translatable="false">wrHeq2kfQh2iTjcBADNNTs7hbmnZq0wEZkE7695NfnDDV56n2Z</string>
+
     <string name="title_activity_homepage">Homepage</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
