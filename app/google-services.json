@@ -1,33 +1,41 @@
 {
   "project_info": {
-    "project_number": "578466843731",
-    "project_id": "myoauth-fdb84",
-    "storage_bucket": "myoauth-fdb84.appspot.com"
+    "project_number": "373440166918",
+    "project_id": "trackit-1528201000115",
+    "storage_bucket": "trackit-1528201000115.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:578466843731:android:3e576bf108164217654aa6",
+        "mobilesdk_app_id": "1:373440166918:android:adee7867d4601c85b31787",
         "android_client_info": {
           "package_name": "com.mwenda.myoauth"
         }
       },
       "oauth_client": [
         {
-          "client_id": "578466843731-7v0umhdgn3kvg5ftqmpco0qaoiaasdp1.apps.googleusercontent.com",
+          "client_id": "373440166918-q4be0h3okt92jg0e8sbfe3v2i1mlt2v1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mwenda.myoauth",
+            "certificate_hash": "4d427907f0b83d403b711f8ab4a679a8593fbc0f"
+          }
+        },
+        {
+          "client_id": "373440166918-rm24sq02274gb83ncaubrub145j6uo95.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBT2gSjL4uke5ItfP1HCuH4-5hRps4epsE"
+          "current_key": "AIzaSyBzHP5pQG_wKEYj-6exTytVX78Wgn0ZhjE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "578466843731-7v0umhdgn3kvg5ftqmpco0qaoiaasdp1.apps.googleusercontent.com",
+              "client_id": "373440166918-rm24sq02274gb83ncaubrub145j6uo95.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -90,11 +90,8 @@ public class Homepage extends AppCompatActivity {
     }
 
     private void signOut() {
-//        if (mGoogleSignInClient.isConnected()) {
-//            Plus.AccountApi.clearDefaultAccount(mGoogleSignInClient);
-//            mGoogleSignInClient.disconnect();
-//            mGoogleSignInClient.connect();
-//        }
         FirebaseAuth.getInstance().signOut();
+        LoginManager.getInstance().logOut();
+        finish();
     }
 }
