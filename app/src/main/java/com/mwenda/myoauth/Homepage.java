@@ -95,6 +95,6 @@ public class Homepage extends AppCompatActivity {
 //            mGoogleSignInClient.disconnect();
 //            mGoogleSignInClient.connect();
 //        }
-        LoginManager.getInstance().logOut();
+        FirebaseAuth.getInstance().signOut();
     }
 }
